@@ -16,9 +16,9 @@
 package com.expedia.aquila.train;
 
 import com.expedia.adaptivealerting.core.util.ReflectionUtil;
-import com.expedia.adaptivealerting.dataconnect.DataConnector;
 import com.expedia.aquila.core.repo.AquilaModelRepo;
 import com.expedia.aquila.core.repo.s3.S3AquilaModelRepo;
+import com.expedia.aquila.train.dataconnect.DataConnector;
 import com.expedia.metrics.jackson.MetricsJavaModule;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
